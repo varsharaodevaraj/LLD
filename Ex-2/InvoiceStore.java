@@ -1,4 +1,4 @@
 public interface InvoiceStore {
-    void save(String name, String content);
-    int countLines(String name);
+    void save(String id, String content);
+    int countLines(String id);
 }
